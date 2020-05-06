@@ -3,4 +3,10 @@
     <string name="utama">MainMenu</string>
     <string name="h1">Hai,Saya Iqbal</string>
     <string name="kenalan">Ini adalah Aplikasi Saya </string>
+
+    //biodata
+    <string name="nama">Muhammad Iqbal Taufik</string>
+    <string name="deskripsi">Nama panggilan iqbal, Hobi ngoding dan main game,
+    bahasa pemograman yang pernah di pelajari adalah Java, Python, dan Kotlin.
+    pacar alhamdulillah baru satu, maksudnya udah satu dan saya masih kuliah.</string>
 </resources>

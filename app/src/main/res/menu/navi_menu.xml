@@ -14,19 +14,10 @@
             android:id="@+id/nav_friends"
             android:icon="@drawable/ic_friends"
             android:title="Friends"/>
+        <item
+            android:id="@+id/nav_gf"
+            android:icon="@drawable/ic_favorite"
+            android:title="GirlFriend"/>
     </group>
 
-
-    <item android:title="Account Settings">
-        <menu>
-            <item
-                android:id="@+id/nav_update"
-                android:icon="@drawable/ic_update"
-                android:title="Update Profile"/>
-            <item
-                android:id="@+id/nav_logout"
-                android:icon="@drawable/ic_signout"
-                android:title="Sign Out"/>
-        </menu>
-    </item>
 </menu>
