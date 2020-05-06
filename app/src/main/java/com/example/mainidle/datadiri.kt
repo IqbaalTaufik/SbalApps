@@ -18,9 +18,15 @@ private lateinit var btn1 : Button
         }
         val imail =findViewById(R.id.textView14) as TextView
         imail.setOnClickListener{
-            val orul = Intent(android.content.Intent.ACTION_VIEW)
+            val orul = Intent(Intent.ACTION_VIEW)
             orul.data = Uri.parse("https://mail.google.com/mail/u/2/#inbox?compose=GTvVlcSDbFjvqJMWMHFHSQJkhRwXgBKbBxhlKkMKTzmxpvgVLSHgdwLDsmCnKWrZFWJjqSHmggpsq")
             startActivity(orul)
+        }
+        val ige = findViewById(R.id.textView15) as TextView
+        ige.setOnClickListener{
+            val orul1 = Intent(Intent.ACTION_VIEW)
+            orul1.data = Uri.parse("https://www.instagram.com/iqbaal_taufik/")
+            startActivity(orul1)
         }
     }
 }
