@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SbalApps</string>
+    <string name="utama">MainMenu</string>
 </resources>
