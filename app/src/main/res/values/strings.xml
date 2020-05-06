@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">SbalApps</string>
     <string name="utama">MainMenu</string>
+    <string name="h1">Hai,Saya Iqbal</string>
+    <string name="kenalan">Ini adalah Aplikasi Saya </string>
 </resources>
