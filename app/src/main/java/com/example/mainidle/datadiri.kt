@@ -28,5 +28,11 @@ private lateinit var btn1 : Button
             orul1.data = Uri.parse("https://www.instagram.com/iqbaal_taufik/")
             startActivity(orul1)
         }
+        val hab = findViewById(R.id.textView16) as TextView
+        hab.setOnClickListener{
+            val orul2 = Intent(Intent.ACTION_VIEW)
+            orul2.data = Uri.parse("https://github.com/IqbaalTaufik")
+            startActivity(orul2)
+        }
     }
 }
