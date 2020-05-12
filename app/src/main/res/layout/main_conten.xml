@@ -14,7 +14,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
+            android:background="@color/merahp"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
             <LinearLayout
                 android:layout_width="match_parent"
@@ -26,7 +26,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/utama"
                     android:textColor="#FFFFFF"
-                    style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"/>
+                    style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                    android:fontFamily="@font/p5hatty"
+                    android:textSize="28dp"/>
             </LinearLayout>
         </androidx.appcompat.widget.Toolbar>
 
@@ -34,9 +36,11 @@
 
 
     <LinearLayout
+        android:id="@+id/leyot"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@color/merahp2">
     </LinearLayout>
 
 </LinearLayout>

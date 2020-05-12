@@ -5,24 +5,29 @@
         <item
             android:id="@+id/nav_profile"
             android:icon="@drawable/ic_profile"
-            android:title="Profile"/>
+            android:title="Profile"
+            android:fontFamily="@font/p5hatty"
+            />
         <item
             android:id="@+id/nav_interests"
             android:icon="@drawable/ic_interests"
-            android:title="Interest"/>
+            android:title="Interest"
+            android:fontFamily="@font/p5hatty"/>
         <item
             android:id="@+id/nav_friends"
             android:icon="@drawable/ic_friends"
-            android:title="Friends list"/>
+            android:title="Friends list"
+            android:fontFamily="@font/p5hatty"/>
         <item
             android:id="@+id/nav_gf"
             android:icon="@drawable/ic_favorite"
-            android:title="GirlFriend"/>
+            android:title="GirlFriend"
+            android:fontFamily="@font/p5hatty"/>
         <item
             android:id="@+id/nav_contacts"
             android:icon="@drawable/ic_contacts"
             android:title="Contact"
-            />
+            android:fontFamily="@font/p5hatty"/>
     </group>
 
 </menu>
