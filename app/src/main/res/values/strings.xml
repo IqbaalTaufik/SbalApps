@@ -16,4 +16,9 @@
 
     //interes
     <string name="judul"><b>INTEREST</b></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hai</string>
+    <string name="hello_blank_fragment2">kamu</string>
+    <string name="hello_blank_fragment3">iya kamu</string>
 </resources>

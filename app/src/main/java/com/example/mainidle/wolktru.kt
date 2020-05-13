@@ -1,14 +1,14 @@
 package com.example.mainidle
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_wolktru.*
 
-class SplashScreen : AppCompatActivity() {
+class wolktru : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_splash_screen)
-        startActivity(Intent(this,wolktru::class.java))
+        setContentView(R.layout.activity_wolktru)
+        viewpager.adapter = MyPagerAdapter(supportFragmentManager)
     }
 }
