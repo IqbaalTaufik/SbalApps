@@ -27,7 +27,7 @@
         android:textColor="@color/putih"
         android:textStyle="bold"
         android:fontFamily="@font/p5hatty"
-        android:textSize="24dp"/>
+        android:textSize="28dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -35,6 +35,6 @@
         android:text="@string/kenalan"
         android:textColor="@color/putih"
         android:fontFamily="@font/p5hatty"
-        android:textSize="18dp"/>
+        android:textSize="20dp"/>
 
 </LinearLayout>
