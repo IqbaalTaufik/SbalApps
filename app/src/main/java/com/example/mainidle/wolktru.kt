@@ -12,7 +12,7 @@ class wolktru : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_wolktru)
         viewpager.adapter = MyPagerAdapter(supportFragmentManager)
-        betn = findViewById(R.id.button1)
+        betn = findViewById(R.id.button222)
         betn.setOnClickListener{
             startActivity(Intent(this,MainActivity::class.java))
         }
