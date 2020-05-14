@@ -107,8 +107,8 @@
             android:textAlignment="center"
             android:textColor="@color/putih"
             android:text="@string/instag"
-            android:fontFamily="@font/p5hatty"
             app:layout_constraintTop_toBottomOf="@id/textView14"
+            android:fontFamily="@font/p5hatty"
             android:textSize="20dp"/>
         <TextView
             android:id="@+id/textView16"

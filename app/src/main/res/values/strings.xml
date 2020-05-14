@@ -21,4 +21,7 @@
     <string name="hello_blank_fragment">Hai</string>
     <string name="hello_blank_fragment2">kamu</string>
     <string name="hello_blank_fragment3">iya kamu</string>
+
+    //random
+    <string name="tek2">Aplikasi ini tentang saya,silahkan pilih menu di samping</string>
 </resources>
