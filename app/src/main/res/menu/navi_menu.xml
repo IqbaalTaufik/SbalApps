@@ -28,6 +28,11 @@
             android:icon="@drawable/ic_contacts"
             android:title="Contact"
             android:fontFamily="@font/p5hatty"/>
+        <item
+            android:id="@+id/nav_activiti"
+            android:title="Daily Activity"
+            android:icon="@drawable/ic_accessibility"
+            />
     </group>
 
 </menu>

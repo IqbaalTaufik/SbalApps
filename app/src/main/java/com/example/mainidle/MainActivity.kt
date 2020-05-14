@@ -46,6 +46,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_friends -> {
                 Toast.makeText(this, "Friends clicked", Toast.LENGTH_SHORT).show()
             }
+            R.id.nav_activiti -> {
+                startActivity(Intent(this,daily::class.java))
+            }
         }
         drawerLayout.closeDrawer(GravityCompat.START)
         return true
