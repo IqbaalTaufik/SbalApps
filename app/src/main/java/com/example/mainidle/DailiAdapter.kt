@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.mainidle.db.dbdaili
 import com.example.mainidle.R
 import kotlinx.android.synthetic.main.activity_daily.view.*
+import kotlinx.android.synthetic.main.daily_menu.view.*
 
 class DailiAdapter: RecyclerView.Adapter<DailiAdapter.viewHolder>(){
     private var isian : List<dbdaili> = ArrayList()
@@ -31,7 +32,7 @@ class DailiAdapter: RecyclerView.Adapter<DailiAdapter.viewHolder>(){
     class viewHolder constructor(
         view: View
     ): RecyclerView.ViewHolder(view){
-        val title = view.tvgaleri
+        val title = view.tvdaili
 
         fun bindaily(dbdaili: dbdaili){
             title.text = dbdaili.kegiatan
